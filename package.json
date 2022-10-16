@@ -1,0 +1,38 @@
+{
+  "name": "new-chatbot",
+  "version": "0.1.0",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "description": "a websockets based chat bot",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel public/js --out-file build/main.bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "websockets",
+    "heroku",
+    "standardjs",
+    "chatbot"
+  ],
+  "author": "kevin martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^3.0.1",
+    "ws": "^4.1.0"
+  },
+  "engines": {
+    "node": "9.11.1",
+    "npm": "5.8.0"
+  }
+}

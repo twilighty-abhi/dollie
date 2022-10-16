@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #34495E;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul, dl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Work Sans', serif;
+}
+
+ul {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.heading {
+  font-family: 'Work Sans', serif;
+}
+
+.heading--main {
+  color: #FFFFF7;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.phone-case {
+  background: #fff;
+  border: 15px solid #000;
+  border-top-width: 30px;
+  border-bottom-width: 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 10px;
+  max-width: 320px;
+  margin: auto;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-field {
+  padding: 10px;
+  padding-top: 30px;
+  height: 400px;
+}
+
+.chat__text {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+}
+
+.chat__box {
+  font-size: 0.9em;
+}
+
+.chat__box--cpu {
+  text-align: left;
+}
+
+.chat__box--user {
+  text-align: right;
+}
+
+.chat__box header {
+  font-family: 'Ubuntu Mono', monospace;
+  margin-top: 0;
+  font-size: 0.7em;
+  padding: 0 8px;
+  font-weight: 700;
+}
+
+.chat__text--cpu {
+  background-color: #ECF0F1;
+}
+
+.chat__text--user {
+  background-color: #66CC99;
+}
+
+.msg {
+  background: #fff;
+  max-width: 320px;
+  margin: auto;
+  border-bottom: 60px solid #000;
+  border-left: 15px solid #000;
+  border-right: 15px solid #000;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.msg__input {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  width: 60%;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.msg__btn {
+  display: inline-block;
+  margin: 0;
+  border: none;
+  width: 40%;
+  height: 48px;
+  font-size: 15px;
+}
+
+.btn {
+  font-family: 'Work Sans';
+  text-transform: uppercase;
+  background: #3D8EB9;
+  color: #fff;
+}
+
+.msg {
+  background: #ccc;
+  padding: 5px
+}
