@@ -7,7 +7,7 @@ A SHN project repo based on WebSocket <br>
 
 ```
 Team : HackTox <br>
-Member 0 : {twilighty-abhi} (https://github.com/twilighty-abhi)
+Member 0 : twilighty-abhi
 Member 1 : rithul-rmp 
 ```
 
